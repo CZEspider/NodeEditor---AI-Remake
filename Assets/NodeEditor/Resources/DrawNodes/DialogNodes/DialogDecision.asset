@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7034d8b581a6be469e1a70ce7e11ace, type: 3}
+  m_Name: DialogDecision
+  m_EditorClassIdentifier: 
+  Width: 200
+  Height: 575
+  scaledWidth: 200
+  collapseHeight: 50
+  NodeColor: {r: 0.5, g: 0.3089623, b: 0.3089623, a: 1}
+  Deletable: 1
+  transitionsLimit: 6
+  unlimitedTransitions: 0
+  enableCollapse: 1
+  duplicatable: 1
+  unconectableNodes: []
+  enableTransitions: 1
+  DecisionTime: 10
+  TimeIsRunning: 0
+  Color0: 1
+  Color1: 2
+  Color2: 0
+  Color3: 3
+  Color4: 4
+  TextColor0: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  TextColor1: {r: 1, g: 0, b: 0, a: 1}
+  TextColor2: {r: 0, g: 1, b: 0, a: 1}
+  TextColor3: {r: 0, g: 0, b: 1, a: 1}
+  TextColor4: {r: 1, g: 1, b: 1, a: 1}

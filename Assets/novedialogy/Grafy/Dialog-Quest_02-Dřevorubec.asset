@@ -1,0 +1,3236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb9598b0e41f574f8ba4e91b6ed5cff, type: 3}
+  m_Name: "Dialog-Quest_02-D\u0159evorubec"
+  m_EditorClassIdentifier: 
+  nodes:
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 21C084
+    WindowRect:
+      serializedVersion: 2
+      x: 332.80273
+      y: 413.59976
+      width: 120
+      height: 60
+    WindowTitle: 
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4280736087
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: 8e74665c768090641a062e5b08444997, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 5C3582
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    depencies: []
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 21C184
+    WindowRect:
+      serializedVersion: 2
+      x: 522.8021
+      y: 409.59988
+      width: 200
+      height: 110
+    WindowTitle: Dialog Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: a11d35517dd91f44aac9bbcd1d8fc05e, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 27G367
+      Color: {r: 1, g: 0.54901963, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    depencies:
+    - ID: 21C284
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 4E3567
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 29J3512
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 44G353
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 5C3582
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 8300000, guid: 239b4adf7fcb6c14486015c162249df6, type: 3}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 27G267
+    WindowRect:
+      serializedVersion: 2
+      x: 826.801
+      y: 342.60004
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 53H3530
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 27G367
+      Color: {r: 1, g: 0.54901963, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    transitionsIdsToRemove:
+    - 59A1499
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Je v\u0161echno v po\u0159\xE1dku pane? "
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 7A346
+    WindowRect:
+      serializedVersion: 2
+      x: 1108.6403
+      y: 493.4556
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 18T356
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 53H3530
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove:
+    - 55T3525
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "No to sakra nen\xED. Rozbila se mi m\xE1 jedin\xE1 sekera,
+      a na opravu nem\xE1m. A vyd\u011Blat si tak\xE9 nem\xE1m jak. "
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 6
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 17H354
+    WindowRect:
+      serializedVersion: 2
+      x: 1383.9691
+      y: 360.5124
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 19H3578
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 18T356
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "To je sm\u016Fla no."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 21E3656
+    WindowRect:
+      serializedVersion: 2
+      x: 1647.0192
+      y: 362.3416
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 21J3526
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 19H3578
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Mohu v\xE1m s t\xEDm n\u011Bjak pomoci?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 46E3767
+    WindowRect:
+      serializedVersion: 2
+      x: 1907.1456
+      y: 492.84848
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 43E3598
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 21J3526
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove:
+    - 23G3593
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "To bys pro mne ud\u011Blal?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 4G3590
+    WindowRect:
+      serializedVersion: 2
+      x: 2172.4004
+      y: 363.39996
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 45C3559
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 43E3598
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Lid\xE9 by si m\u011Bli pom\xE1hat ne?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 17E3686
+    WindowRect:
+      serializedVersion: 2
+      x: 2443.4001
+      y: 611.3999
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 6G3599
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 45C3559
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Tak poslouchej. Od sekery se mi ulomilo top\u016Frko, a
+      ne\u017E jsem ho stihl naj\xEDt, tak kolem prob\u011Bhl divok\xFD pes a utekl
+      s m\xFDm top\u016Frkem n\u011Bkam do lesa."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 9
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 41H3768
+    WindowRect:
+      serializedVersion: 2
+      x: 2679.4004
+      y: 611.3999
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 8J358
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 6G3599
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "J\xE1 se do lesa vydat nemohu ale, kdybys to ud\u011Blal
+      ty tak by to bylo jist\u011B skv\u011Bl\xE9."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 5.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 22J3883
+    WindowRect:
+      serializedVersion: 2
+      x: 2951.2017
+      y: 364.39996
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 12C3544
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 8J358
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Nev\xEDte kde bych mohl za\u010D\xEDt?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 27J3973
+    WindowRect:
+      serializedVersion: 2
+      x: 3218.201
+      y: 367.39996
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 13C3524
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 12C3544
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "No top\u016Frko jsem ztratil kousek severn\u011B od vesnice,
+      sta\u010D\xED, kdy\u017E p\u016Fjde\u0161 st\xE1le po cest\u011B, pak zahne\u0161
+      doprava a cesta t\u011B dovede k mostu a za mostem je m\xFDtina se spoustou
+      pa\u0159ez\u016F."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 10
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 28E4062
+    WindowRect:
+      serializedVersion: 2
+      x: 3481.2014
+      y: 370.40005
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 25C3561
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 13C3524
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Cestu d\xE1l bude\u0161 muset objevit s\xE1m. Ale mysl\xEDm,
+      \u017Ee to top\u016Frko bylo na psa p\u0159\xEDli\u017E t\u011B\u017Ek\xE9
+      tak\u017Ee beze stopy by zmizet nem\u011Bl."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 7
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 39G3570
+    WindowRect:
+      serializedVersion: 2
+      x: 2959.2007
+      y: 706.80054
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 27T3565
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 25C3561
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "To zn\xED nebezpe\u010Dn\u011B, do toho nejdu."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 3
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 40E3679
+    WindowRect:
+      serializedVersion: 2
+      x: 3222.2002
+      y: 707.80054
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 24E3525
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 27T3565
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "No kdyby sis to rozmyslel, d\xE1m ti sv\u016Fj prsten,
+      pr\xFD nositely p\u0159in\xE1\u0161\xED s\xEDlu."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 4
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 45E3512
+    WindowRect:
+      serializedVersion: 2
+      x: 2179.7998
+      y: 1195.8007
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 26G3570
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 24E3525
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Samoz\u0159ejm\u011B \u017Ee zadarmo ne."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 1A3628
+    WindowRect:
+      serializedVersion: 2
+      x: 2436.4001
+      y: 1196.4006
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 21J3591
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 26G3570
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Samoz\u0159ejm\u011B \u017Ee ti za to d\xE1m, co budu moci.
+      Tohle je prsten kter\xFD nos\xEDm ji\u017E dlouho, pr\xFD nositeli zvy\u0161uje
+      s\xEDlu. Bere\u0161?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 6.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 48G3522
+    WindowRect:
+      serializedVersion: 2
+      x: 2958.8828
+      y: 1192.1187
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 43G3571
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 21J3591
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove:
+    - 22T3557
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 'Ano, jak tedy mohu pomoci? '
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 40T3432
+    WindowRect:
+      serializedVersion: 2
+      x: 3224.2642
+      y: 1198.064
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 45T3520
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 43G3571
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Tak poslouchej. Od sekery se mi ulomilo top\u016Frko, a
+      ne\u017E jsem ho stihl naj\xEDt, tak kolem prob\u011Bhl divok\xFD pes a utekl
+      s m\xFDm top\u016Frkem n\u011Bkam do lesa."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 9
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 55J3579
+    WindowRect:
+      serializedVersion: 2
+      x: 3495.0374
+      y: 1203.064
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 46C3538
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 45T3520
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "J\xE1 se do lesa vydat nemohu ale, kdybys to ud\u011Blal
+      ty tak by to bylo jist\u011B skv\u011Bl\xE9."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 5.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 58E3690
+    WindowRect:
+      serializedVersion: 2
+      x: 3765.946
+      y: 1207.5186
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 48E3517
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 46C3538
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Souhlas\xEDm, nev\xEDte kde bych mohl za\u010D\xEDt?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 3
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 1C3713
+    WindowRect:
+      serializedVersion: 2
+      x: 4020.4014
+      y: 1209.4275
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 50H3568
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 48E3517
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "No top\u016Frko jsem ztratil kousek severn\u011B od vesnice,
+      sta\u010D\xED, kdy\u017E p\u016Fjde\u0161 st\xE1le po cest\u011B, pak zahne\u0161
+      doprava a cesta t\u011B dovede k mostu a za mostem je m\xFDtina se spoustou
+      pa\u0159ez\u016F."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 10
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 7J3858
+    WindowRect:
+      serializedVersion: 2
+      x: 4283.9194
+      y: 1214.4276
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 50J3520
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 50H3568
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Cestu d\xE1l bude\u0161 muset objevit s\xE1m. Ale mysl\xEDm,
+      \u017Ee to top\u016Frko bylo na psa p\u0159\xEDli\u017E t\u011B\u017Ek\xE9
+      tak\u017Ee beze stopy by zmizet nem\u011Bl."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 7
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 52H3521
+    WindowRect:
+      serializedVersion: 2
+      x: 3767.3643
+      y: 1498.4733
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 52A3574
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 50J3520
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "To zn\xED nebezpe\u010Dn\u011B, do toho nejdu."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 3
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 10A3598
+    WindowRect:
+      serializedVersion: 2
+      x: 3002.4827
+      y: 1860.2458
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 54G3593
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 52A3574
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: Ne.
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 1.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 12J3647
+    WindowRect:
+      serializedVersion: 2
+      x: 3254.1184
+      y: 1857.5187
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 37J3510
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 54G3593
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "No kdyby sis to rozmyslel, tak prsten st\xE1le \u010Dek\xE1."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 3
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 4A3526
+    WindowRect:
+      serializedVersion: 2
+      x: 4538.117
+      y: 1637.7925
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 39T3593
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 37J3510
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "To sta\u010D\xED, vzd\xE1v\xE1m se."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 10E3663
+    WindowRect:
+      serializedVersion: 2
+      x: 4787.2744
+      y: 1640.1376
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 45E3569
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 39T3593
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Boj je\u0161t\u011B neskon\u010Dil, bojujeme d\xE1l."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 37T3739
+    WindowRect:
+      serializedVersion: 2
+      x: 4779.761
+      y: 1893.0972
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 47H3533
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 45E3569
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Tak a te\u010F mi pov\u011Bz kde je d\u0159evorubcovo top\u016Frko!"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 3.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 59E3812
+    WindowRect:
+      serializedVersion: 2
+      x: 5041.5083
+      y: 1895.5234
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 48G3514
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 47H3533
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Jak\xE9 ...? Oh ten kus klacku co p\u0159inesl pes? Ten
+      je t\xE1mhle na hromad\u011B na podpal. "
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 5.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 18A391
+    WindowRect:
+      serializedVersion: 2
+      x: 5294.3916
+      y: 1896.5273
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 50C3536
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 48G3514
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Za to \u017Ee si mi to \u0159ekl, tak t\u011B te\u010F
+      nech\xE1m b\xFDt, ale ur\u010Dit\u011B t\u011B nahl\xE1s\xEDm. "
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 4.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 36E4072
+    WindowRect:
+      serializedVersion: 2
+      x: 5568.1426
+      y: 1897.542
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 53T3579
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 50C3536
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "D\u011Bkuju, hele ob\u010Das si p\u0159ijdu k n\u011Bj\xE1k\xFDm
+      t\u011Bm zlat\xFDm nav\xEDc, tady m\xE1\u0161 dva a rozmysli si to s t\xEDm
+      nahl\xE1\u0161en\xEDm. T\u0159eba jednou bude\u0161 pot\u0159ebovat n\u011Bco
+      od n\u011Bkoho jako j\xE1 a aspo\u0148 bys nemusel hledat."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 10
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 37C4159
+    WindowRect:
+      serializedVersion: 2
+      x: 5840.0933
+      y: 1902.6624
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 55E3539
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 53T3579
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Vid\xEDm, \u017Ee jsi na\u0161el m\xE9 top\u016Frko, a
+      nen\xED skoro okousan\xE9, d\u011Bkuji. Zde je tv\xE1 odm\u011Bna."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 5.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 9H4261
+    WindowRect:
+      serializedVersion: 2
+      x: 6124.6953
+      y: 1908.9462
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 57J354
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 55E3539
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "Nezaj\xEDm\xE1 v\xE1s kde jsem ho na\u0161el?"
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 2.5
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 10T4391
+    WindowRect:
+      serializedVersion: 2
+      x: 6415.0903
+      y: 1913.7081
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions: []
+    depencies:
+    - ID: 57J354
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 1
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 1
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "To mne te\u010F opravdu nezaj\xEDm\xE1, hlavn\u011B \u017Ee
+      je m\xE9 milovan\xE9 top\u016Frko zp\u011Bt."
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 4
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  removeNodesIDs: []
+  selectedNodes: []
+  firstSubtitles:
+    BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 21C184
+    WindowRect:
+      serializedVersion: 2
+      x: 522.8021
+      y: 409.59988
+      width: 200
+      height: 110
+    WindowTitle: Dialog Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: a11d35517dd91f44aac9bbcd1d8fc05e, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 27G367
+      Color: {r: 1, g: 0.54901963, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    depencies:
+    - ID: 21C284
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 4E3567
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 29J3512
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 44G353
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    - ID: 5C3582
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 8300000, guid: 239b4adf7fcb6c14486015c162249df6, type: 3}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 0
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  destroyOnEnd: 0

@@ -1,0 +1,1308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb9598b0e41f574f8ba4e91b6ed5cff, type: 3}
+  m_Name: New NewDialogGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 38E096
+    WindowRect:
+      serializedVersion: 2
+      x: 42.267845
+      y: 244.43105
+      width: 120
+      height: 60
+    WindowTitle: 
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4280736087
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: 8e74665c768090641a062e5b08444997, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 26G1311
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies: []
+    transitionsIdsToRemove:
+    - 1H351
+    - 47A1559
+    - 25T1765
+    - 57E244
+    - 31T259
+    - 10T1041
+    - 59J1329
+    - 25J743
+    - 22G135
+    - 0E418
+    - 5T1081
+    - 30A1320
+    - 13H1355
+    - 25J1373
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 39C299
+    WindowRect:
+      serializedVersion: 2
+      x: 274.29236
+      y: 228.03123
+      width: 200
+      height: 105
+    WindowTitle: Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4278255360
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 12fe46cd278f13f4aa32b6c239ce0e02, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 17A418
+      Color: {r: 1, g: 0, b: 0.8116398, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 42J396
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 4E48
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 46E451
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 48A103
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 27E363
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 17A1039
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 30H1311
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 32G138
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 26G1311
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 8300000, guid: e0331ceaef1e7744dbbd5ccda6049c5c, type: 3}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 56A339
+    WindowRect:
+      serializedVersion: 2
+      x: 544.6852
+      y: 202.72377
+      width: 200
+      height: 155
+    WindowTitle: Dialog Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 9C481
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    depencies:
+    - ID: 17A418
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove:
+    - 17C499
+    - 0C429
+    - 49T446
+    - 35H471
+    - 43G1363
+    - 1J426
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 11111111111111111111111111111111111
+    dialogPartspeaker: {fileID: 11400000, guid: adb1b364bac7e554195f82b40b2bacbd,
+      type: 2}
+    dialogPartStartDuration: 2.51
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: 
+    decisionString1: 
+    decisionString2: 
+    decisionString3: 
+    decisionString4: 
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 4G31
+    WindowRect:
+      serializedVersion: 2
+      x: 850.0852
+      y: 124.67553
+      width: 200
+      height: 575
+    WindowTitle: Decision
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4283387776
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: 27a258a31ea719e448a42193369270ed, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 10A470u
+      Color: {r: 0.9490196, g: 0.101960786, b: 0.35686275, a: 1}
+      disabled: 0
+      startPlacement: 9
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    - ID: 43G7410u
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 10
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    - ID: 47A10120u
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 2
+      endPlacement: 3
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 9C481
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    transitionsIdsToRemove:
+    - 30C10880u
+    - 25J7450u
+    nodeCompleted: 1
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 5
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 1
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 10A47
+    WindowRect:
+      serializedVersion: 2
+      x: 1167.0731
+      y: 162.9903
+      width: 200
+      height: 200
+    WindowTitle: Decision 1 Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: 12fe46cd278f13f4aa32b6c239ce0e02, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 10A471u
+      Color: {r: 0.9490196, g: 0.101960786, b: 0.35686275, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 10A470u
+      Color: {r: 0.9490196, g: 0.101960786, b: 0.35686275, a: 1}
+      disabled: 0
+      startPlacement: 9
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 8300000, guid: 04db8736025cda741ab0125de77abc9b, type: 3}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 10A57
+    WindowRect:
+      serializedVersion: 2
+      x: 1441.5852
+      y: 180.06348
+      width: 200
+      height: 105
+    WindowTitle: Decision 1 Event
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 181ea9981e1050b449a07f8b1dbd8362, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 10A472u
+      Color: {r: 0.9490196, g: 0.101960786, b: 0.35686275, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 10A471u
+      Color: {r: 0.9490196, g: 0.101960786, b: 0.35686275, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 0
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 10A67
+    WindowRect:
+      serializedVersion: 2
+      x: 1650.2435
+      y: 199.57567
+      width: 200
+      height: 155
+    WindowTitle: Decision 1 Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions: []
+    depencies:
+    - ID: 10A472u
+      Color: {r: 0.9490196, g: 0.101960786, b: 0.35686275, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: "pi\u010Do me\u010D"
+    dialogPartspeaker: {fileID: 11400000, guid: 909cf14e925e4fd4b9f742fa10bfe88f,
+      type: 2}
+    dialogPartStartDuration: 10
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 43G741
+    WindowRect:
+      serializedVersion: 2
+      x: 1146.4841
+      y: 381.242
+      width: 200
+      height: 200
+    WindowTitle: Decision 2 Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: 12fe46cd278f13f4aa32b6c239ce0e02, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 43G7411u
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 43G7410u
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 10
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 43G841
+    WindowRect:
+      serializedVersion: 2
+      x: 1408.0632
+      y: 400.97885
+      width: 200
+      height: 105
+    WindowTitle: Decision 2 Event
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 181ea9981e1050b449a07f8b1dbd8362, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 43G7412u
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 43G7411u
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 0
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 43G941
+    WindowRect:
+      serializedVersion: 2
+      x: 1682.7998
+      y: 393.0841
+      width: 200
+      height: 155
+    WindowTitle: Decision 2 Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions: []
+    depencies:
+    - ID: 43G7412u
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: zuizuizui
+    dialogPartspeaker: {fileID: 11400000, guid: ad3df412f24064549b435f356dff662e,
+      type: 2}
+    dialogPartStartDuration: 10
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 47A1012
+    WindowRect:
+      serializedVersion: 2
+      x: 1164.1157
+      y: 627.0314
+      width: 200
+      height: 200
+    WindowTitle: TimedOut Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: 12fe46cd278f13f4aa32b6c239ce0e02, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 47A10121u
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 3
+      endPlacement: 2
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 47A10120u
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 2
+      endPlacement: 3
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 8300000, guid: e9926bfa32b977c429a1b3984cbeb1d9, type: 3}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 47A1112
+    WindowRect:
+      serializedVersion: 2
+      x: 1503.3262
+      y: 655.9789
+      width: 200
+      height: 105
+    WindowTitle: TimedOut Event
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 181ea9981e1050b449a07f8b1dbd8362, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 47A10122u
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 3
+      endPlacement: 2
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    depencies:
+    - ID: 47A10121u
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 3
+      endPlacement: 2
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 0
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  - BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 47A1212
+    WindowRect:
+      serializedVersion: 2
+      x: 1785.9578
+      y: 623.08405
+      width: 200
+      height: 155
+    WindowTitle: TimedOut Subtitles
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 1
+    drawNode: {fileID: 11400000, guid: 8d63587cf737e6341a5a4d609e843089, type: 2}
+    previousCollapse: 0
+    transitions: []
+    depencies:
+    - ID: 47A10122u
+      Color: {r: 1, g: 0, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 3
+      endPlacement: 2
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 0
+    transitionsIdsToRemove: []
+    nodeCompleted: 1
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 1
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: zuizui
+    dialogPartspeaker: {fileID: 11400000, guid: 1c8fe7d6c4fc83e4f9f44f2aa7923ec2,
+      type: 2}
+    dialogPartStartDuration: 10
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  removeNodesIDs: []
+  selectedNodes: []
+  firstSubtitles:
+    BehaviourGraph: {fileID: 0}
+    DialogGraph: {fileID: 11400000}
+    ID: 20H1391
+    WindowRect:
+      serializedVersion: 2
+      x: 219
+      y: 354
+      width: 200
+      height: 110
+    WindowTitle: Dialog Audio
+    nodeColor:
+      serializedVersion: 2
+      rgba: 4286611584
+    collapse: 0
+    drawNode: {fileID: 11400000, guid: a11d35517dd91f44aac9bbcd1d8fc05e, type: 2}
+    previousCollapse: 0
+    transitions:
+    - ID: 18T1466
+      Color: {r: 1, g: 0.54901963, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
+    depencies: []
+    transitionsIdsToRemove: []
+    nodeCompleted: 0
+    deletable: 1
+    focused: 0
+    NodeEditor: {fileID: 0}
+    executed: 0
+    comment: 
+    condition: 0
+    parameter: 
+    AnimatorActivatorType: 0
+    AnimatorActivatorBoolValue: 0
+    AnimatorActivatorIntValue: 0
+    AnimatorActivatorFloatValue: 0
+    animationLayer: 0
+    animatorController: {fileID: 0}
+    delay: 0
+    randomMoveArea: 
+    randomSet: 0
+    portalTargetNodeID: 
+    destinationTarget: {fileID: 0}
+    destinationTargetName: 
+    alwaysCheckConditions: 
+    alwaysCheckCoun: 1
+    swapGraph: {fileID: 0}
+    dialogAudioClip: {fileID: 0}
+    dialogPartSubtitles: 
+    dialogPartspeaker: {fileID: 0}
+    dialogPartStartDuration: 0
+    eventListSize: 1
+    dialogEvents: 
+    addItems: []
+    decisionSelectedOption: 10
+    dialogDecisionAmount: 2
+    decided: 0
+    IsTimed: 0
+    TimeBranchCreated: 0
+    Decision0: 0
+    Decision1: 0
+    Decision2: 0
+    Decision3: 0
+    Decision4: 0
+    decisionImage0: {fileID: 0}
+    decisionImage1: {fileID: 0}
+    decisionImage2: {fileID: 0}
+    decisionImage3: {fileID: 0}
+    decisionImage4: {fileID: 0}
+    decisionString0: text
+    decisionString1: text
+    decisionString2: text
+    decisionString3: text
+    decisionString4: text
+  destroyOnEnd: 0
