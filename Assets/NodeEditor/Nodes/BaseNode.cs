@@ -99,6 +99,7 @@ namespace NodeEditor
         #region Dialog decision nodes
         public int decisionSelectedOption = 10;
         public int dialogDecisionAmount = 2;
+        public float DecisionTime = 2f;
         public bool decided = false;
         public bool IsTimed = false;
         public bool TimeBranchCreated = false;
@@ -107,6 +108,7 @@ namespace NodeEditor
         public bool Decision2 = false;
         public bool Decision3 = false;
         public bool Decision4 = false;
+        public bool DidOnce = false;
 
         public Sprite decisionImage0;
         public Sprite decisionImage1;
@@ -119,6 +121,18 @@ namespace NodeEditor
         public string decisionString2 = "text";
         public string decisionString3 = "text";
         public string decisionString4 = "text";
+
+        public Color TextColor0;
+        public Color TextColor1;
+        public Color TextColor2;
+        public Color TextColor3;
+        public Color TextColor4;
+
+        public TextColor Color0;
+        public TextColor Color1;
+        public TextColor Color2;
+        public TextColor Color3;
+        public TextColor Color4;
 
 
         public enum TextColor
@@ -213,6 +227,7 @@ namespace NodeEditor
             executed = true;
 
         }
+
     }
 }
 

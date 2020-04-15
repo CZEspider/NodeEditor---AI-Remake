@@ -33,6 +33,7 @@ public class DialogManager : MonoBehaviour, IPlayable
     public Image DecisionImage4;
     public GameObject DecisionHolder;
     public Image TimeBar;
+    private bool AudioPlayed = false;
 
     
 
@@ -46,7 +47,6 @@ public class DialogManager : MonoBehaviour, IPlayable
         {
             graph.InitDialog();
         }
-        //decisionOptions.OnButtonSelect.AddListener(()=>decisionOptions.DeactiveButtons());
     }
     private void Update()
     {
@@ -55,7 +55,7 @@ public class DialogManager : MonoBehaviour, IPlayable
 
             graph.lifeCycle.Tick();
 
-            if (!AudioPlayer.isPlaying ) //&& AudioIsReady()
+            if (!AudioPlayer.isPlaying && !AudioPlayed) //&& AudioIsReady()
             {
                 AudioPlayer.Play();
             }

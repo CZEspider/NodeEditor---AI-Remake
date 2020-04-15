@@ -44,7 +44,7 @@ namespace DialogEditor
 
             if ((selectedNode != currentGraph.EnterNode && currentGraph.EnterNode.transitions[0]?.endNode != selectedNode)&&!currentGraph.IsEnterState((currentGraph as DialogGraph).firstSubtitles,selectedNode))
                 AddNewItemToMenu(menu, "Set As StartState", UserActions.setAsStartNode);
-            //DecisionNode
+            //DecisionNode START
 
             if (selectedNode.drawNode is DialogDecisionNode && selectedNode.drawNode.transitionsLimit > selectedNode.transitions.Count && selectedNode.transitions.Count == 0 && selectedNode.dialogDecisionAmount >= 1 && selectedNode.Decision0 == false)
             {
@@ -77,7 +77,7 @@ namespace DialogEditor
                 AddNewItemToMenu(menu, "Add TimedOut Branch", UserActions.dialogDecisionTimeOut);
             }
 
-            //DecisionNode
+            //DecisionNode END
 
             if (selectedNode.drawNode.duplicatable)
                 AddNewItemToMenu(menu, "Duplicate", UserActions.duplicateSelection);
@@ -133,16 +133,19 @@ namespace DialogEditor
                 case UserActions.dialogPartNode:
                     BaseNode n = currentGraph.AddNode(DrawNodes.DialogPartNode, mousePosition.x, mousePosition.y, "Dialog Subtitles");
                     break;
-                case UserActions.setAsStartNode:
 
+                case UserActions.setAsStartNode:
                     (currentGraph as DialogGraph).SetAsEnterState((currentGraph as DialogGraph).firstSubtitles, selectedNode, GUIStylizer.Colors.ORANGE);
                     break;
+
                 case UserActions.makeTransition:
                     isMakingTransition = true;
                     break;
+
                 case UserActions.dialogDecisionNode:
                     currentGraph.AddNode(DrawNodes.DialogDecisionNode, mousePosition.x, mousePosition.y, "Decision");
                     break;
+
                 case UserActions.dialogEventNode:
                     currentGraph.AddNode(DrawNodes.DialogEventNode, mousePosition.x, mousePosition.y, "Event");
                     break;

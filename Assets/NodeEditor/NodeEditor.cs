@@ -95,7 +95,7 @@ namespace NodeEditor
         void HandlePanning(Event e)
         {
             Vector2 diff = e.mousePosition - scrollStartPos;
-            diff *= .6f;
+            diff *= 1.5f;     //pův. 0.6f
             scrollStartPos = e.mousePosition;
             scrollPos += diff;
 

@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 748828519}
   - component: {fileID: 748828518}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Decision2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 771390060}
   - component: {fileID: 771390059}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Decision3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 773079129}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2006,7 +2006,7 @@ GameObject:
   - component: {fileID: 1207146174}
   - component: {fileID: 1207146173}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Decision4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2421,7 +2421,7 @@ GameObject:
   - component: {fileID: 1530440990}
   - component: {fileID: 1530440989}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Decision0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2686,7 +2686,7 @@ GameObject:
   - component: {fileID: 1879625795}
   - component: {fileID: 1879625794}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Decision1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

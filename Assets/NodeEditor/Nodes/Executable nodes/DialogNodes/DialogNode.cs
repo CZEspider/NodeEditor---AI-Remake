@@ -31,10 +31,15 @@ namespace DialogEditor
                 if (DialogManager.Instance.AudioPlayer.clip != b.dialogAudioClip)
                     DialogManager.Instance.AudioPlayer.Stop();
                 DialogManager.Instance.AudioPlayer.clip = b.dialogAudioClip;
-                if (DialogManager.Instance.AudioPlayer.clip.loadState == AudioDataLoadState.Loaded && DialogManager.Instance.AudioPlayer.clip == b.dialogAudioClip && DialogManager.Instance.AudioPlayer.isPlaying == false)
-                {
-                    DialogManager.Instance.AudioPlayer.Play();
-                }
+
+                //IF zakázáno, protože po dohrání zvuku se spustí znovu!!//
+
+                //if (DialogManager.Instance.AudioPlayer.clip.loadState == AudioDataLoadState.Loaded && DialogManager.Instance.AudioPlayer.clip == b.dialogAudioClip && DialogManager.Instance.AudioPlayer.isPlaying == false)
+                //{
+                //    DialogManager.Instance.AudioPlayer.Play();
+                //}
+
+                //IF zakázáno, protože po dohrání zvuku se spustí znovu!!//
             }
         }
     }

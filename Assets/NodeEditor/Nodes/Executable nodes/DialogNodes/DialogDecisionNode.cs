@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DialogEditor;
 using System.Linq;
+using UnityEngine.Events;
 using static GUIStylizer;
 
 namespace DialogEditor
@@ -14,18 +15,10 @@ namespace DialogEditor
     [CreateAssetMenu(menuName = "DialogEditor/Nodes/Decision")]
     public class DialogDecisionNode : ExecutableNode
     {
-        public float DecisionTime = 0f;
         public bool TimeIsRunning = false;
-        public BaseNode.TextColor Color0;
-        public BaseNode.TextColor Color1;
-        public BaseNode.TextColor Color2;
-        public BaseNode.TextColor Color3;
-        public BaseNode.TextColor Color4;
-        public Color TextColor0;
-        public Color TextColor1;
-        public Color TextColor2;
-        public Color TextColor3;
-        public Color TextColor4;
+        public int decisionSelectedOption = 10;
+        public bool decidedLocal = false;
+        public float DecisionTime;
 
         public override void DrawCurve(BaseNode node)
         {
@@ -58,27 +51,27 @@ namespace DialogEditor
                 DialogEditor.GetEGLLable("Decision 1", n);                                                                  //vykreslení textu "Decision1"
                 b.decisionImage0 = EditorGUILayout.ObjectField(b.decisionImage0, typeof(Sprite), false) as Sprite;          //Objectfield pro Sprite soubory
                 b.decisionString0 = GUILayout.TextField(b.decisionString0, 200);                                            //Textové pole pro text dialogového výběru
-                Color0 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", Color0);                                    //Handler barvy textu
+                b.Color0 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", b.Color0);                                    //Handler barvy textu
 
-                if (Color0 == BaseNode.TextColor.Green)
+                if (b.Color0 == BaseNode.TextColor.Green)
                 {
-                    TextColor0 = Color.green;
+                    b.TextColor0 = Color.green;
                 }    
-                if (Color0 == BaseNode.TextColor.Yellow)
+                if (b.Color0 == BaseNode.TextColor.Yellow)
                 {
-                    TextColor0 = Color.yellow;
+                    b.TextColor0 = Color.yellow;
                 }
-                if (Color0 == BaseNode.TextColor.Red)
+                if (b.Color0 == BaseNode.TextColor.Red)
                 {
-                    TextColor0 = Color.red;
+                    b.TextColor0 = Color.red;
                 }
-                if (Color0 == BaseNode.TextColor.Blue)
+                if (b.Color0 == BaseNode.TextColor.Blue)
                 {
-                    TextColor0 = Color.blue;
+                    b.TextColor0 = Color.blue;
                 }
-                if (Color0 == BaseNode.TextColor.White)
+                if (b.Color0 == BaseNode.TextColor.White)
                 {
-                    TextColor0 = Color.white;
+                    b.TextColor0 = Color.white;
                 }
             }               //Obsahuje komentáře
 
@@ -87,26 +80,26 @@ namespace DialogEditor
                 DialogEditor.GetEGLLable("Decision 2", n);
                 b.decisionImage1 = EditorGUILayout.ObjectField(b.decisionImage1, typeof(Sprite), false) as Sprite;
                 b.decisionString1 = GUILayout.TextField(b.decisionString1, 200);
-                Color1 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", Color1);
-                if (Color1 == BaseNode.TextColor.Green)
+                b.Color1 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", b.Color1);
+                if (b.Color1 == BaseNode.TextColor.Green)
                 {
-                    TextColor1 = Color.green;
+                    b.TextColor1 = Color.green;
                 }
-                if (Color1 == BaseNode.TextColor.Yellow)
+                if (b.Color1 == BaseNode.TextColor.Yellow)
                 {
-                    TextColor1 = Color.yellow;
+                    b.TextColor1 = Color.yellow;
                 }
-                if (Color1 == BaseNode.TextColor.Red)
+                if (b.Color1 == BaseNode.TextColor.Red)
                 {
-                    TextColor1 = Color.red;
+                    b.TextColor1 = Color.red;
                 }
-                if (Color1 == BaseNode.TextColor.Blue)
+                if (b.Color1 == BaseNode.TextColor.Blue)
                 {
-                    TextColor1 = Color.blue;
+                    b.TextColor1 = Color.blue;
                 }
-                if (Color1 == BaseNode.TextColor.White)
+                if (b.Color1 == BaseNode.TextColor.White)
                 {
-                    TextColor1 = Color.white;
+                    b.TextColor1 = Color.white;
                 }
             }
 
@@ -116,26 +109,26 @@ namespace DialogEditor
                 DialogEditor.GetEGLLable("Decision 3", n);
                 b.decisionImage2 = EditorGUILayout.ObjectField(b.decisionImage2, typeof(Sprite), false) as Sprite;
                 b.decisionString2 = GUILayout.TextField(b.decisionString2, 200);
-                Color2 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", Color2);
-                if (Color2 == BaseNode.TextColor.Green)
+                b.Color2 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", b.Color2);
+                if (b.Color2 == BaseNode.TextColor.Green)
                 {
-                    TextColor2 = Color.green;
+                    b.TextColor2 = Color.green;
                 }
-                if (Color2 == BaseNode.TextColor.Yellow)
+                if (b.Color2 == BaseNode.TextColor.Yellow)
                 {
-                    TextColor2 = Color.yellow;
+                    b.TextColor2 = Color.yellow;
                 }
-                if (Color2 == BaseNode.TextColor.Red)
+                if (b.Color2 == BaseNode.TextColor.Red)
                 {
-                    TextColor2 = Color.red;
+                    b.TextColor2 = Color.red;
                 }
-                if (Color2 == BaseNode.TextColor.Blue)
+                if (b.Color2 == BaseNode.TextColor.Blue)
                 {
-                    TextColor2 = Color.blue;
+                    b.TextColor2 = Color.blue;
                 }
-                if (Color2 == BaseNode.TextColor.White)
+                if (b.Color2 == BaseNode.TextColor.White)
                 {
-                    TextColor2 = Color.white;
+                    b.TextColor2 = Color.white;
                 }
             }
 
@@ -144,26 +137,26 @@ namespace DialogEditor
                 DialogEditor.GetEGLLable("Decision 4", n);
                 b.decisionImage3 = EditorGUILayout.ObjectField(b.decisionImage3, typeof(Sprite), false) as Sprite;
                 b.decisionString3 = GUILayout.TextField(b.decisionString3, 200);
-                Color3 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", Color3);
-                if (Color3 == BaseNode.TextColor.Green)
+                b.Color3 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", b.Color3);
+                if (b.Color3 == BaseNode.TextColor.Green)
                 {
-                    TextColor3 = Color.green;
+                    b.TextColor3 = Color.green;
                 }
-                if (Color3 == BaseNode.TextColor.Yellow)
+                if (b.Color3 == BaseNode.TextColor.Yellow)
                 {
-                    TextColor3 = Color.yellow;
+                    b.TextColor3 = Color.yellow;
                 }
-                if (Color3 == BaseNode.TextColor.Red)
+                if (b.Color3 == BaseNode.TextColor.Red)
                 {
-                    TextColor3 = Color.red;
+                    b.TextColor3 = Color.red;
                 }
-                if (Color3 == BaseNode.TextColor.Blue)
+                if (b.Color3 == BaseNode.TextColor.Blue)
                 {
-                    TextColor3 = Color.blue;
+                    b.TextColor3 = Color.blue;
                 }
-                if (Color3 == BaseNode.TextColor.White)
+                if (b.Color3 == BaseNode.TextColor.White)
                 {
-                    TextColor3 = Color.white;
+                    b.TextColor3 = Color.white;
                 }
             }
 
@@ -172,26 +165,26 @@ namespace DialogEditor
                 DialogEditor.GetEGLLable("Decision 5", n);
                 b.decisionImage4 = EditorGUILayout.ObjectField(b.decisionImage4, typeof(Sprite), false) as Sprite;
                 b.decisionString4 = GUILayout.TextField(b.decisionString4, 200);
-                Color4 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", Color4);
-                if (Color4 == BaseNode.TextColor.Green)
+                b.Color4 = (BaseNode.TextColor)EditorGUILayout.EnumPopup("Color", b.Color4);
+                if (b.Color4 == BaseNode.TextColor.Green)
                 {
-                    TextColor4 = Color.green;
+                    b.TextColor4 = Color.green;
                 }
-                if (Color4 == BaseNode.TextColor.Yellow)
+                if (b.Color4 == BaseNode.TextColor.Yellow)
                 {
-                    TextColor4 = Color.yellow;
+                    b.TextColor4 = Color.yellow;
                 }
-                if (Color4 == BaseNode.TextColor.Red)
+                if (b.Color4 == BaseNode.TextColor.Red)
                 {
-                    TextColor4 = Color.red;
+                    b.TextColor4 = Color.red;
                 }
-                if (Color4 == BaseNode.TextColor.Blue)
+                if (b.Color4 == BaseNode.TextColor.Blue)
                 {
-                    TextColor4 = Color.blue;
+                    b.TextColor4 = Color.blue;
                 }
-                if (Color4 == BaseNode.TextColor.White)
+                if (b.Color4 == BaseNode.TextColor.White)
                 {
-                    TextColor4 = Color.white;
+                    b.TextColor4 = Color.white;
                 }
             }
             
@@ -200,14 +193,26 @@ namespace DialogEditor
 
             if (b.IsTimed)
             {
-                DecisionTime = EditorGUILayout.Slider(DecisionTime, 2f, 10f);
+                b.DecisionTime = EditorGUILayout.Slider(b.DecisionTime, 2f, 10f);
                 DialogEditor.GetEGLLable("TimeOut Branch", GUIStyle.none);
             }
         }
 
+
         public override void Execute(BaseNode b)
         {
             if (b.transitions.Count == 0) return;
+
+            if (!b.DidOnce)                     //Resetování hodnot Nody - nemazat!!
+            {
+                DialogManager.Instance.TimeBar.fillAmount = b.DecisionTime / 1 ;
+                decidedLocal = false;
+                decisionSelectedOption = 10;
+                DecisionTime = b.DecisionTime;
+                b.DidOnce = true;
+            }
+
+
 
             string[] data = new string[b.transitions.Count];
             //aktivuje decisionOptionsHolder
@@ -220,12 +225,20 @@ namespace DialogEditor
                 data[i] = subs.dialogPartSubtitles;
             }
 
-            if (TimeIsRunning && b.IsTimed)
+            //Pokud Decision je časovaný - Odečítá čas a zobrazí bar
+            if (TimeIsRunning && b.IsTimed)         
             {
-                DialogManager.Instance.TimeBar.fillAmount -= 1.0f / DecisionTime * Time.deltaTime;
+                DialogManager.Instance.TimeBar.enabled = true;
+                DialogManager.Instance.TimeBar.fillAmount -= 1.0f / b.DecisionTime * Time.deltaTime;
             }
 
-            if (DialogManager.Instance.TimeBar.fillAmount <= 0.01 && b.IsTimed)
+            //Pokud Decision není časovaný - Vypne zobrazení TimeBaru
+            if (!b.IsTimed)             
+            {
+                DialogManager.Instance.TimeBar.enabled = false;
+            }
+
+            if (DialogManager.Instance.TimeBar.fillAmount <= 0.01 && b.IsTimed)     //Pokud vyprší čas zvolí 5. výstup
             {
                 b.decisionSelectedOption = 5;
                 b.decided = true;
@@ -234,73 +247,71 @@ namespace DialogEditor
                 DialogManager.Instance.DecisionHolder.SetActive(false);
 
             }
-            if (!TimeIsRunning && b.IsTimed)
+            if (!TimeIsRunning && b.IsTimed)                //Pokud čas neběží a Node je časovaná - spustí časovač
             {
                 TimeIsRunning = true;
             }
-
-            Debug.Log(DialogManager.Instance.TimeBar.fillAmount);
 
             if (b.dialogDecisionAmount >= 1)
             {
                 DialogManager.Instance.DecisionImage0.sprite = b.decisionImage0;
                 DialogManager.Instance.DecisionText0.text = b.decisionString0;
-                DialogManager.Instance.DecisionText0.color = TextColor0;
+                DialogManager.Instance.DecisionText0.color = b.TextColor0;
             }
             if (b.dialogDecisionAmount >= 2)
             {
                 DialogManager.Instance.DecisionImage1.sprite = b.decisionImage1;
                 DialogManager.Instance.DecisionText1.text = b.decisionString1;
-                DialogManager.Instance.DecisionText1.color = TextColor1;
+                DialogManager.Instance.DecisionText1.color = b.TextColor1;
             }
             if (b.dialogDecisionAmount >= 3)
             {
                 DialogManager.Instance.DecisionImage2.sprite = b.decisionImage2;
                 DialogManager.Instance.DecisionText2.text = b.decisionString2;
-                DialogManager.Instance.DecisionText2.color = TextColor2;
+                DialogManager.Instance.DecisionText2.color = b.TextColor2;
             }
             if (b.dialogDecisionAmount >= 4)
             {
                 DialogManager.Instance.DecisionImage3.sprite = b.decisionImage3;
                 DialogManager.Instance.DecisionText3.text = b.decisionString3;
-                DialogManager.Instance.DecisionText3.color = TextColor3;
+                DialogManager.Instance.DecisionText3.color = b.TextColor3;
             }
             if (b.dialogDecisionAmount >= 5)
             {
                 DialogManager.Instance.DecisionImage4.sprite = b.decisionImage4;
                 DialogManager.Instance.DecisionText4.text = b.decisionString4;
-                DialogManager.Instance.DecisionText4.color = TextColor4;
+                DialogManager.Instance.DecisionText4.color = b.TextColor4;
             }
 
-            else if (Input.GetKeyDown(KeyCode.M) && (b.transitions.Count >= 1))
+            else if (Input.GetKeyDown(KeyCode.Alpha1) && (b.transitions.Count >= 1))
             {
                 b.decisionSelectedOption = 0;
                 b.decided = true;
                 TimeIsRunning = false;
                 DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.N) && (b.transitions.Count >= 2))
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && (b.transitions.Count >= 2))
             {
                 b.decisionSelectedOption = 1;
                 b.decided = true;
                 TimeIsRunning = false;
                 DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.B) && (b.transitions.Count >= 3))
+            else if (Input.GetKeyDown(KeyCode.Alpha3) && (b.transitions.Count >= 3))
             {
                 b.decisionSelectedOption = 2;
                 b.decided = true;
                 TimeIsRunning = false;
                 DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.V) && (b.transitions.Count >= 4))
+            else if (Input.GetKeyDown(KeyCode.Alpha4) && (b.transitions.Count >= 4))
             {
                 b.decisionSelectedOption = 3;
                 b.decided = true;
                 TimeIsRunning = false;
                 DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.C) && (b.transitions.Count >= 5))
+            else if (Input.GetKeyDown(KeyCode.Alpha5) && (b.transitions.Count >= 5))
             {
                 b.decisionSelectedOption = 4;
                 b.decided = true;
@@ -309,13 +320,75 @@ namespace DialogEditor
 
             }
 
-            DialogManager.Instance.DecisionButton0.onClick.AddListener(Button0Clicked);
-            
+            if (decidedLocal)                    // Jistá forma resetu Nody
+            {
+                b.decided = decidedLocal;
+                b.DidOnce = false;
+            }
+
+            if (!b.decided)
+            {
+                decisionSelectedOption = -1;    //Nastavuje int do -1 protože jinak se ihned potvrdí první volba! (neměnit)
+            }
+
+            DialogManager.Instance.DecisionButton0.onClick.AddListener(Button0Clicked);         //Pokud Kliknem spustí se funkce která potvrdí výber tlačítka
+            DialogManager.Instance.DecisionButton1.onClick.AddListener(Button1Clicked);
+            DialogManager.Instance.DecisionButton2.onClick.AddListener(Button2Clicked);
+            DialogManager.Instance.DecisionButton3.onClick.AddListener(Button3Clicked);
+            DialogManager.Instance.DecisionButton4.onClick.AddListener(Button4Clicked);
+
+            if (decisionSelectedOption < 5 && decisionSelectedOption >= 0)                      //Výběr musí být mezi 1-5
+            {
+                b.decided = true;
+                b.decisionSelectedOption = decisionSelectedOption;
+            }
+
+            Debug.Log("Option:" + decisionSelectedOption);                                      //Debug pro zvolenou možnost
+
         }
 
         public void Button0Clicked()
         {
+            Debug.Log("Klik0");
+            decisionSelectedOption = 0;
             TimeIsRunning = false;
+            decidedLocal = true;
+            DialogManager.Instance.DecisionHolder.SetActive(false);
+        }
+
+        public void Button1Clicked()
+        {
+            Debug.Log("Klik1");
+            decisionSelectedOption = 1;
+            TimeIsRunning = false;
+            decidedLocal = true;
+            DialogManager.Instance.DecisionHolder.SetActive(false);
+        }
+
+        public void Button2Clicked()
+        {
+            Debug.Log("Klik2");
+            decisionSelectedOption = 2;
+            TimeIsRunning = false;
+            decidedLocal = true;
+            DialogManager.Instance.DecisionHolder.SetActive(false);
+        }
+
+        public void Button3Clicked()
+        {
+            Debug.Log("Klik3");
+            decisionSelectedOption = 3;
+            TimeIsRunning = false;
+            decidedLocal = true;
+            DialogManager.Instance.DecisionHolder.SetActive(false);
+        }
+
+        public void Button4Clicked()
+        {
+            Debug.Log("Klik4");
+            decisionSelectedOption = 4;
+            TimeIsRunning = false;
+            decidedLocal = true;
             DialogManager.Instance.DecisionHolder.SetActive(false);
         }
     }
