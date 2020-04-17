@@ -951,7 +951,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 6.323129e-19, z: 6337696, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -987,7 +987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &748828517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1106,7 +1106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &771390058
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1793,6 +1793,11 @@ MonoBehaviour:
   DecisionImage4: {fileID: 2139061678}
   DecisionHolder: {fileID: 484947150}
   TimeBar: {fileID: 773079131}
+  GO_DecisionButton0: {fileID: 1530440987}
+  GO_DecisionButton1: {fileID: 1879625792}
+  GO_DecisionButton2: {fileID: 748828516}
+  GO_DecisionButton3: {fileID: 771390057}
+  GO_DecisionButton4: {fileID: 1207146171}
   graph: {fileID: 11400000, guid: a74d6c8ccb6f5c847aa35a95215c3d88, type: 2}
 --- !u!65 &1059390519
 BoxCollider:
@@ -2011,7 +2016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1207146172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2274,7 +2279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2426,7 +2431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1530440988
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2691,7 +2696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1879625793
 RectTransform:
   m_ObjectHideFlags: 0

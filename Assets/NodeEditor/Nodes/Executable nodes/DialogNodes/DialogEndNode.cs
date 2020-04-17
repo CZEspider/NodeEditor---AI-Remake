@@ -29,6 +29,8 @@ namespace DialogEditor
         public override void Execute(BaseNode b)        //Funkce co se stane při spuštění – resp. Co bude dělat se souborem
         {
             DialogManager.Instance.SubtitleArea.text = " ";
+            DialogManager.Instance.DecisionHolder.SetActive(false);
+            DialogManager.Instance.TimeBar.enabled = false;
         }    
     }
 }

@@ -212,8 +212,6 @@ namespace DialogEditor
                 b.DidOnce = true;
             }
 
-
-
             string[] data = new string[b.transitions.Count];
             //aktivuje decisionOptionsHolder
             DialogManager.Instance.DecisionHolder.SetActive(true);
@@ -244,80 +242,99 @@ namespace DialogEditor
                 b.decided = true;
                 TimeIsRunning = false;
                 DialogManager.Instance.TimeBar.fillAmount = 0;
-                DialogManager.Instance.DecisionHolder.SetActive(false);
-
             }
             if (!TimeIsRunning && b.IsTimed)                //Pokud čas neběží a Node je časovaná - spustí časovač
             {
                 TimeIsRunning = true;
             }
 
-            if (b.dialogDecisionAmount >= 1)
+            if (b.dialogDecisionAmount >= 1 && !b.decided)
             {
+                DialogManager.Instance.GO_DecisionButton0.SetActive(true);
                 DialogManager.Instance.DecisionImage0.sprite = b.decisionImage0;
                 DialogManager.Instance.DecisionText0.text = b.decisionString0;
                 DialogManager.Instance.DecisionText0.color = b.TextColor0;
             }
-            if (b.dialogDecisionAmount >= 2)
+            else { DialogManager.Instance.GO_DecisionButton0.SetActive(false); }
+
+            if (b.dialogDecisionAmount >= 2 && !b.decided)
             {
+                DialogManager.Instance.GO_DecisionButton1.SetActive(true);
                 DialogManager.Instance.DecisionImage1.sprite = b.decisionImage1;
                 DialogManager.Instance.DecisionText1.text = b.decisionString1;
                 DialogManager.Instance.DecisionText1.color = b.TextColor1;
             }
-            if (b.dialogDecisionAmount >= 3)
+            else { DialogManager.Instance.GO_DecisionButton1.SetActive(false); }
+
+            if (b.dialogDecisionAmount >= 3 && !b.decided)
             {
+                DialogManager.Instance.GO_DecisionButton2.SetActive(true);
                 DialogManager.Instance.DecisionImage2.sprite = b.decisionImage2;
                 DialogManager.Instance.DecisionText2.text = b.decisionString2;
                 DialogManager.Instance.DecisionText2.color = b.TextColor2;
             }
-            if (b.dialogDecisionAmount >= 4)
+            else { DialogManager.Instance.GO_DecisionButton2.SetActive(false); }
+
+            if (b.dialogDecisionAmount >= 4 && !b.decided)
             {
+                DialogManager.Instance.GO_DecisionButton3.SetActive(true);
                 DialogManager.Instance.DecisionImage3.sprite = b.decisionImage3;
                 DialogManager.Instance.DecisionText3.text = b.decisionString3;
                 DialogManager.Instance.DecisionText3.color = b.TextColor3;
             }
-            if (b.dialogDecisionAmount >= 5)
+            else { DialogManager.Instance.GO_DecisionButton3.SetActive(false); }
+
+            if (b.dialogDecisionAmount >= 5 && !b.decided)
             {
+                DialogManager.Instance.GO_DecisionButton4.SetActive(true);
                 DialogManager.Instance.DecisionImage4.sprite = b.decisionImage4;
                 DialogManager.Instance.DecisionText4.text = b.decisionString4;
                 DialogManager.Instance.DecisionText4.color = b.TextColor4;
             }
+            else { DialogManager.Instance.GO_DecisionButton4.SetActive(false); }
 
-            else if (Input.GetKeyDown(KeyCode.Alpha1) && (b.transitions.Count >= 1))
+            if (decidedLocal)
+            {
+                DialogManager.Instance.GO_DecisionButton0.SetActive(false);
+                DialogManager.Instance.GO_DecisionButton1.SetActive(false);
+                DialogManager.Instance.GO_DecisionButton2.SetActive(false);
+                DialogManager.Instance.GO_DecisionButton3.SetActive(false);
+                DialogManager.Instance.GO_DecisionButton4.SetActive(false);
+                DialogManager.Instance.DecisionHolder.SetActive(false);
+
+                DialogManager.Instance.TimeBar.enabled = false;
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.Alpha1) && (b.transitions.Count >= 1))
             {
                 b.decisionSelectedOption = 0;
                 b.decided = true;
                 TimeIsRunning = false;
-                DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2) && (b.transitions.Count >= 2))
+            if (Input.GetKeyDown(KeyCode.Alpha2) && (b.transitions.Count >= 2))
             {
                 b.decisionSelectedOption = 1;
                 b.decided = true;
                 TimeIsRunning = false;
-                DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha3) && (b.transitions.Count >= 3))
+            if (Input.GetKeyDown(KeyCode.Alpha3) && (b.transitions.Count >= 3))
             {
                 b.decisionSelectedOption = 2;
                 b.decided = true;
                 TimeIsRunning = false;
-                DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha4) && (b.transitions.Count >= 4))
+            if (Input.GetKeyDown(KeyCode.Alpha4) && (b.transitions.Count >= 4))
             {
                 b.decisionSelectedOption = 3;
                 b.decided = true;
                 TimeIsRunning = false;
-                DialogManager.Instance.DecisionHolder.SetActive(false);
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha5) && (b.transitions.Count >= 5))
+            if (Input.GetKeyDown(KeyCode.Alpha5) && (b.transitions.Count >= 5))
             {
                 b.decisionSelectedOption = 4;
                 b.decided = true;
                 TimeIsRunning = false;
-                DialogManager.Instance.DecisionHolder.SetActive(false);
-
             }
 
             if (decidedLocal)                    // Jistá forma resetu Nody
@@ -349,47 +366,37 @@ namespace DialogEditor
 
         public void Button0Clicked()
         {
-            Debug.Log("Klik0");
             decisionSelectedOption = 0;
             TimeIsRunning = false;
             decidedLocal = true;
-            DialogManager.Instance.DecisionHolder.SetActive(false);
         }
 
         public void Button1Clicked()
         {
-            Debug.Log("Klik1");
             decisionSelectedOption = 1;
             TimeIsRunning = false;
             decidedLocal = true;
-            DialogManager.Instance.DecisionHolder.SetActive(false);
         }
 
         public void Button2Clicked()
         {
-            Debug.Log("Klik2");
             decisionSelectedOption = 2;
             TimeIsRunning = false;
             decidedLocal = true;
-            DialogManager.Instance.DecisionHolder.SetActive(false);
         }
 
         public void Button3Clicked()
         {
-            Debug.Log("Klik3");
             decisionSelectedOption = 3;
             TimeIsRunning = false;
             decidedLocal = true;
-            DialogManager.Instance.DecisionHolder.SetActive(false);
         }
 
         public void Button4Clicked()
         {
-            Debug.Log("Klik4");
             decisionSelectedOption = 4;
             TimeIsRunning = false;
             decidedLocal = true;
-            DialogManager.Instance.DecisionHolder.SetActive(false);
         }
     }
 }

@@ -34,8 +34,13 @@ public class DialogManager : MonoBehaviour, IPlayable
     public GameObject DecisionHolder;
     public Image TimeBar;
     private bool AudioPlayed = false;
+    public GameObject GO_DecisionButton0;
+    public GameObject GO_DecisionButton1;
+    public GameObject GO_DecisionButton2;
+    public GameObject GO_DecisionButton3;
+    public GameObject GO_DecisionButton4;
 
-    
+
 
     public DialogGraph graph;
     private bool isStopped = true, isPaused = false;
