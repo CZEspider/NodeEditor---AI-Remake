@@ -9,6 +9,9 @@ namespace DialogEditor
     [CreateAssetMenu(menuName = "DialogEditor/Nodes/Audio")]
     public class DialogAudioNode : ExecutableNode
     {
+
+        public bool WasPlayed = false;
+
         public override void DrawCurve(BaseNode node)
         {
         }
@@ -30,19 +33,8 @@ namespace DialogEditor
 
         public override void Execute(BaseNode b)
         {
-
-            if (DialogManager.Instance.AudioPlayer.clip != b.dialogAudioClip)
-                DialogManager.Instance.AudioPlayer.Stop();
-            DialogManager.Instance.AudioPlayer.clip = b.dialogAudioClip;
-
-            //IF zakázáno, protože po dohrání zvuku se spustí znovu!!//
-
-            //if (DialogManager.Instance.AudioPlayer.clip.loadState == AudioDataLoadState.Loaded && DialogManager.Instance.AudioPlayer.clip == b.dialogAudioClip && DialogManager.Instance.AudioPlayer.isPlaying == false)
-            //{
-            //    DialogManager.Instance.AudioPlayer.Play();
-            //}
-
-            //IF zakázáno, protože po dohrání zvuku se spustí znovu!!//
+            var AudioPlayer = DialogManager.Instance.GetComponentInParent<AudioSource>();
+            AudioPlayer.PlayOneShot(b.dialogAudioClip);
         }
     }
 }

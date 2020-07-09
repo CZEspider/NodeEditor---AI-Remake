@@ -13,6 +13,7 @@ namespace DialogEditor
     {
 
         public BaseNode firstSubtitles;
+        public List<BaseNode> decisionNode;
 
         #region Dialog variables
         internal bool wasPlayed = false;
@@ -61,7 +62,6 @@ namespace DialogEditor
                 enterNode = nodes.Find(f => f.drawNode is EnterNode);
             }
 
-
             if (!nodes.Exists(f => f.drawNode is DialogNode))
             {
                 firstSubtitles = new BaseNode(DialogEditor.DrawNodes.DialogNode, 200, 200, "Dialog Audio", GenerateId());
@@ -74,7 +74,6 @@ namespace DialogEditor
                 firstSubtitles = nodes.Find(f => f.drawNode is DialogNode);
                 
             }
-
 
             SetAsEnterState(enterNode, firstSubtitles, Colors.GREEN);
             Debug.Log("Init");
@@ -303,6 +302,16 @@ namespace DialogEditor
         public void InitDialog()
         {
             lifeCycle = new DialogLifeCycle(this);
+            if (nodes.Exists(f => f.drawNode is DialogDecisionNode))                    //TADY DODĚLAT ŽE PRO KAŽDOU DECISION NODU V DIALOGU SE ZMĚNÍ DIDONCE = FALSE;
+            {
+                decisionNode.Add(nodes.Find(f => f.drawNode is DialogDecisionNode));
+                foreach (var decision in decisionNode)
+                {
+
+                }
+                Debug.Log("DecisionNodesCount: " + decisionNode.Count);
+            }
+            Debug.Log("initialization");
         }
     }
 

@@ -11,36 +11,29 @@ public class DialogManager : MonoBehaviour, IPlayable
 {
     [SerializeField]
     private TextButtonGroup decisionOptions;
+
     [SerializeField]
     private TextMeshProUGUI subtitleArea;
+
     public TextMeshProUGUI SubtitleArea { get => subtitleArea; }
+
     public AudioSource AudioPlayer { get { return GetComponent<AudioSource>(); } }
+
     public static DialogManager Instance { get { return FindObjectOfType<DialogManager>(); } }
-    public TextMeshProUGUI DecisionText0; 
-    public TextMeshProUGUI DecisionText1; 
-    public TextMeshProUGUI DecisionText2; 
-    public TextMeshProUGUI DecisionText3; 
-    public TextMeshProUGUI DecisionText4; 
-    public Button DecisionButton0;
-    public Button DecisionButton1;
-    public Button DecisionButton2;
-    public Button DecisionButton3;
-    public Button DecisionButton4;
-    public Image DecisionImage0;
-    public Image DecisionImage1;
-    public Image DecisionImage2;
-    public Image DecisionImage3;
-    public Image DecisionImage4;
+
+    public TextMeshProUGUI DecisionText0, DecisionText1, DecisionText2, DecisionText3, DecisionText4; 
+
+    public Button DecisionButton0, DecisionButton1, DecisionButton2, DecisionButton3, DecisionButton4;
+
+    public Image DecisionImage0, DecisionImage1, DecisionImage2, DecisionImage3, DecisionImage4;
+
     public GameObject DecisionHolder;
+
     public Image TimeBar;
-    private bool AudioPlayed = false;
-    public GameObject GO_DecisionButton0;
-    public GameObject GO_DecisionButton1;
-    public GameObject GO_DecisionButton2;
-    public GameObject GO_DecisionButton3;
-    public GameObject GO_DecisionButton4;
 
+    public bool AudioPlayed = false;
 
+    public GameObject GO_DecisionButton0, GO_DecisionButton1, GO_DecisionButton2, GO_DecisionButton3, GO_DecisionButton4;
 
     public DialogGraph graph;
     private bool isStopped = true, isPaused = false;
@@ -60,10 +53,10 @@ public class DialogManager : MonoBehaviour, IPlayable
 
             graph.lifeCycle.Tick();
 
-            if (!AudioPlayer.isPlaying && !AudioPlayed) //&& AudioIsReady()
-            {
-                AudioPlayer.Play();
-            }
+            //if (!AudioPlayer.isPlaying && !AudioPlayed) //&& AudioIsReady()
+            //{
+            //    AudioPlayer.Play();
+            //}
 
         }
 

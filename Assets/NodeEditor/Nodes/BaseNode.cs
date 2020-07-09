@@ -109,6 +109,7 @@ namespace NodeEditor
         public bool Decision3 = false;
         public bool Decision4 = false;
         public bool DidOnce = false;
+        public bool Resetable = true;
 
         public Sprite decisionImage0;
         public Sprite decisionImage1;
@@ -134,6 +135,17 @@ namespace NodeEditor
         public TextColor Color3;
         public TextColor Color4;
 
+        public bool DecisionOneTime0;
+        public bool DecisionOneTime1;
+        public bool DecisionOneTime2;
+        public bool DecisionOneTime3;
+        public bool DecisionOneTime4;
+
+        public bool AlreadyDecided0 = false;
+        public bool AlreadyDecided1 = false;
+        public bool AlreadyDecided2 = false;
+        public bool AlreadyDecided3 = false;
+        public bool AlreadyDecided4 = false;
 
         public enum TextColor
         {
@@ -227,7 +239,6 @@ namespace NodeEditor
             executed = true;
 
         }
-
     }
 }
 
