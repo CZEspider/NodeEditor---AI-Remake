@@ -26,8 +26,7 @@ namespace DialogEditor
         [SerializeField]
         public bool decidedLocal = false;
 
-        [SerializeField]
-        private bool SoundPlayed = false;
+        private bool SoundPlayed;
 
         public float DecisionTime;
 
@@ -258,7 +257,11 @@ namespace DialogEditor
 
         public override void Execute(BaseNode b)
         {
-            if (b.transitions.Count == 0) return;
+            if (b.transitions.Count == 0)
+            {
+                Debug.LogError("Node doesnt have further path in Dialog!");
+                return;
+            }
 
             if(b.Resetable && !Reseted)
             {
@@ -275,10 +278,6 @@ namespace DialogEditor
                 DecisionTime = b.DecisionTime;
                 Debug.Log("Reset");
                 b.DidOnce = true;
-            }
-
-            if(!SoundPlayed)
-            {
                 PlaySound(b.dialogAudioClip);
                 SoundPlayed = true;
             }
@@ -682,12 +681,14 @@ namespace DialogEditor
             decisionSelectedOption = 4;
             TimeIsRunning = false;
             decidedLocal = true;
-            decidedLocal = false;
+            SoundPlayed = false;
         }
 
         public void PlaySound(AudioClip audio)
         {
-            var AudioPlayer = DialogManager.Instance.GetComponentInParent<AudioSource>();
+            Debug.Log("PlayingSound");
+            AudioSource AudioPlayer = DialogManager.Instance.GetComponentInParent<AudioSource>();
+            AudioPlayer.clip = audio;
             AudioPlayer.PlayOneShot(audio);
         }
     }

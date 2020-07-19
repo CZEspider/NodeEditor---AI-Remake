@@ -1793,12 +1793,13 @@ MonoBehaviour:
   DecisionImage4: {fileID: 2139061678}
   DecisionHolder: {fileID: 484947150}
   TimeBar: {fileID: 773079131}
+  AudioPlayed: 0
   GO_DecisionButton0: {fileID: 1530440987}
   GO_DecisionButton1: {fileID: 1879625792}
   GO_DecisionButton2: {fileID: 748828516}
   GO_DecisionButton3: {fileID: 771390057}
   GO_DecisionButton4: {fileID: 1207146171}
-  graph: {fileID: 11400000, guid: a74d6c8ccb6f5c847aa35a95215c3d88, type: 2}
+  graph: {fileID: 11400000, guid: dbc388b279fcedb458b09fb9e413a03a, type: 2}
 --- !u!65 &1059390519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1877,8 +1878,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 05b02f9f069647a4fbcb31570dde6b1c, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

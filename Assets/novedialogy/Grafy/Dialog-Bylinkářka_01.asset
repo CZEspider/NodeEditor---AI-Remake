@@ -18,8 +18,8 @@ MonoBehaviour:
     ID: 23H043
     WindowRect:
       serializedVersion: 2
-      x: 367.10663
-      y: 297.7005
+      x: -181.89331
+      y: 458.2005
       width: 120
       height: 60
     WindowTitle: 
@@ -30,14 +30,14 @@ MonoBehaviour:
     drawNode: {fileID: 11400000, guid: 8e74665c768090641a062e5b08444997, type: 2}
     previousCollapse: 0
     transitions:
-    - ID: 14C137
-      Color: {r: 1, g: 0, b: 1, a: 1}
+    - ID: 16E135
+      Color: {r: 0, g: 1, b: 0, a: 1}
       disabled: 0
       startPlacement: 6
       endPlacement: 7
       clicked: 0
       Value: 
-      enableClickPoint: 1
+      enableClickPoint: 0
       removable: 1
     depencies:
     - ID: 7J1549
@@ -84,6 +84,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -92,6 +93,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -102,13 +105,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 23H143
     WindowRect:
       serializedVersion: 2
-      x: 542.5414
-      y: 259.42493
+      x: -6.458618
+      y: 419.92493
       width: 200
       height: 110
     WindowTitle: Dialog Audio
@@ -192,6 +215,15 @@ MonoBehaviour:
       Value: 
       enableClickPoint: 1
       removable: 1
+    - ID: 16E135
+      Color: {r: 0, g: 1, b: 0, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 0
+      removable: 1
     transitionsIdsToRemove:
     - 6E355
     nodeCompleted: 0
@@ -226,6 +258,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -234,6 +267,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -244,13 +279,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 31C335
     WindowRect:
       serializedVersion: 2
-      x: 831.7602
-      y: 238.48988
+      x: 282.76025
+      y: 398.98987
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -316,6 +371,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -324,6 +380,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -334,13 +392,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 1H34
     WindowRect:
       serializedVersion: 2
-      x: 1086.0994
-      y: 238.74373
+      x: 537.09937
+      y: 399.2437
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -404,6 +482,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -412,6 +491,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -422,13 +503,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 30E440
     WindowRect:
       serializedVersion: 2
-      x: 1356.475
-      y: 238.42497
+      x: 807.475
+      y: 398.925
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -493,6 +594,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -501,6 +603,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -511,13 +615,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 56C556
     WindowRect:
       serializedVersion: 2
-      x: 1630.8181
-      y: 238.54643
+      x: 1081.8181
+      y: 399.04645
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -582,6 +706,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -590,6 +715,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -600,13 +727,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 6J642
     WindowRect:
       serializedVersion: 2
-      x: 1897.3557
-      y: 238.81529
+      x: 1348.3557
+      y: 399.3153
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -708,6 +855,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -716,6 +864,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -726,13 +876,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 47T711
     WindowRect:
       serializedVersion: 2
-      x: 2160.5269
-      y: 239.08315
+      x: 1611.5269
+      y: 399.58313
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -796,6 +966,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -804,6 +975,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -814,13 +987,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 57C833
     WindowRect:
       serializedVersion: 2
-      x: 2460.7725
-      y: 240.3729
+      x: 1911.7725
+      y: 400.8729
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -905,6 +1098,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -913,6 +1107,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -923,13 +1119,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 11C981
     WindowRect:
       serializedVersion: 2
-      x: 3027.3796
-      y: 239.44142
+      x: 2478.3796
+      y: 399.9414
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -1004,6 +1220,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -1012,6 +1229,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -1022,13 +1241,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 35A1091
     WindowRect:
       serializedVersion: 2
-      x: 2760.1594
-      y: 240.32727
+      x: 2211.1594
+      y: 400.82727
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -1095,6 +1334,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -1103,6 +1343,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -1113,13 +1355,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 13H1228
     WindowRect:
       serializedVersion: 2
-      x: 3285.738
-      y: 237.5027
+      x: 2736.738
+      y: 398.0027
       width: 200
       height: 155
     WindowTitle: Dialog Subtitles
@@ -1186,6 +1448,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -1194,6 +1457,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -1204,13 +1469,33 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   - BehaviourGraph: {fileID: 0}
     DialogGraph: {fileID: 11400000}
     ID: 34G1348
     WindowRect:
       serializedVersion: 2
-      x: 3941.6326
-      y: 259.24268
+      x: 3392.6326
+      y: 419.74268
       width: 200
       height: 105
     WindowTitle: Audio
@@ -1264,6 +1549,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -1272,6 +1558,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -1282,6 +1570,26 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
   removeNodesIDs: []
   selectedNodes: []
   firstSubtitles:
@@ -1290,8 +1598,8 @@ MonoBehaviour:
     ID: 23H143
     WindowRect:
       serializedVersion: 2
-      x: -3124.0586
-      y: 195.27487
+      x: -6.458618
+      y: 419.92493
       width: 200
       height: 110
     WindowTitle: Dialog Audio
@@ -1357,16 +1665,25 @@ MonoBehaviour:
       Value: 
       enableClickPoint: 0
       removable: 1
-    - ID: 35H1421
-      Color: {r: 0, g: 1, b: 0, a: 1}
+    - ID: 2A1465
+      Color: {r: 1, g: 0, b: 1, a: 1}
       disabled: 0
       startPlacement: 6
       endPlacement: 7
       clicked: 0
       Value: 
-      enableClickPoint: 0
+      enableClickPoint: 1
       removable: 1
-    - ID: 12G1487
+    - ID: 14C137
+      Color: {r: 1, g: 0, b: 1, a: 1}
+      disabled: 0
+      startPlacement: 6
+      endPlacement: 7
+      clicked: 0
+      Value: 
+      enableClickPoint: 1
+      removable: 1
+    - ID: 16E135
       Color: {r: 0, g: 1, b: 0, a: 1}
       disabled: 0
       startPlacement: 6
@@ -1400,7 +1717,7 @@ MonoBehaviour:
     alwaysCheckConditions: 
     alwaysCheckCoun: 1
     swapGraph: {fileID: 0}
-    dialogAudioClip: {fileID: 8300000, guid: 3fe7829506718a24a8e5262aee47b34a, type: 3}
+    dialogAudioClip: {fileID: 8300000, guid: 1fb4d7909b983874e8ea5bb634955b09, type: 3}
     dialogPartSubtitles: 
     dialogPartspeaker: {fileID: 0}
     dialogPartStartDuration: 0
@@ -1409,6 +1726,7 @@ MonoBehaviour:
     addItems: []
     decisionSelectedOption: 10
     dialogDecisionAmount: 0
+    DecisionTime: 0
     decided: 0
     IsTimed: 0
     TimeBranchCreated: 0
@@ -1417,6 +1735,8 @@ MonoBehaviour:
     Decision2: 0
     Decision3: 0
     Decision4: 0
+    DidOnce: 0
+    Resetable: 0
     decisionImage0: {fileID: 0}
     decisionImage1: {fileID: 0}
     decisionImage2: {fileID: 0}
@@ -1427,4 +1747,25 @@ MonoBehaviour:
     decisionString2: 
     decisionString3: 
     decisionString4: 
+    TextColor0: {r: 0, g: 0, b: 0, a: 0}
+    TextColor1: {r: 0, g: 0, b: 0, a: 0}
+    TextColor2: {r: 0, g: 0, b: 0, a: 0}
+    TextColor3: {r: 0, g: 0, b: 0, a: 0}
+    TextColor4: {r: 0, g: 0, b: 0, a: 0}
+    Color0: 0
+    Color1: 0
+    Color2: 0
+    Color3: 0
+    Color4: 0
+    DecisionOneTime0: 0
+    DecisionOneTime1: 0
+    DecisionOneTime2: 0
+    DecisionOneTime3: 0
+    DecisionOneTime4: 0
+    AlreadyDecided0: 0
+    AlreadyDecided1: 0
+    AlreadyDecided2: 0
+    AlreadyDecided3: 0
+    AlreadyDecided4: 0
+  decisionNode: []
   destroyOnEnd: 0

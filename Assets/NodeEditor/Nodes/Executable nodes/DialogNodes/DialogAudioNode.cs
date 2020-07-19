@@ -10,7 +10,7 @@ namespace DialogEditor
     public class DialogAudioNode : ExecutableNode
     {
 
-        public bool WasPlayed = false;
+        private bool WasPlayed = false;
 
         public override void DrawCurve(BaseNode node)
         {
@@ -33,8 +33,19 @@ namespace DialogEditor
 
         public override void Execute(BaseNode b)
         {
-            var AudioPlayer = DialogManager.Instance.GetComponentInParent<AudioSource>();
-            AudioPlayer.PlayOneShot(b.dialogAudioClip);
+            if(!WasPlayed)
+            {
+                PlaySound(b.dialogAudioClip);
+                WasPlayed = true;
+            }
+        }
+
+        public void PlaySound(AudioClip audio)
+        {
+            Debug.Log("PlayingSound");
+            AudioSource AudioPlayer = DialogManager.Instance.GetComponentInParent<AudioSource>();
+            AudioPlayer.clip = audio;
+            AudioPlayer.PlayOneShot(audio);
         }
     }
 }
